@@ -1,0 +1,40 @@
+/* The box-sizing property allows us to include the padding and border in an element's 
+total width and height. If you set box-sizing: border-box; on an element, padding and 
+border are included in the width and height */
+
+* {
+    box-sizing: border-box;
+}
+
+/* The .converter-container classname represents a section. The margin and padding are added 
+and texts are positioned at center and the font-family is set to cursive */
+
+.converter-container {
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+/* these style set are applied to <select> and <input> tags.
+the width, margin, padding and font-size are set here.  */
+
+select, input {
+    font-family: cursive;
+    font-size: 25px;
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+    position: relative;
+}
+
+/* This styleset is for the output text. It has monospace font family with a bottom border. */
+
+#output {
+    font-family: monospace;
+    font-size: 30px;
+    margin: 2%;
+    padding: 2%;
+    border-bottom: 1px solid #fff;
+}
